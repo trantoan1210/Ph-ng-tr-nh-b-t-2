@@ -4,16 +4,7 @@ let number2 = document.getElementById('number2').value;
 let number3 = document.getElementById('number3').value;
 number4 = [(number2**2) - (4 * number1 * number3)];
 
-if (number1==0){
-    if (number2==0) {
- document.getElementById('ketqua').innerHTML = 'Mày ngu quá tự trả lời đi';
-    }
-    else {
-       boss= ([-number3] / number2)
- document.getElementById('ketqua').innerHTML = 'X=' + boss  ; 
-}}
-else {
-    if (number4<=0){
+if  (number4<=0){
         document.getElementById('ketqua').innerHTML = 'Vô nghiệm';
     }
     else{
